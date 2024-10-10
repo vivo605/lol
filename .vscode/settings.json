@@ -1,0 +1,19 @@
+{
+  "editor.tabSize": 4,
+  "actionButtons": {
+    "commands": [
+      {
+        "tooltip": "build",
+        "name": "$(package)",
+        "command": "./build.sh"
+      },
+      {
+        "tooltip": "run",
+        "name": "$(run)",
+        "color": "green",
+        "command": "./run.sh"
+      }
+    ]
+  },
+  "C_Cpp.errorSquiggles": "disabled"
+}
